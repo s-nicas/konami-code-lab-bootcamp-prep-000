@@ -7,7 +7,7 @@ var body = document.querySelector('body');
   
     var key = parseInt(e.detail || e.which);
     var index = 0; 
-    if (key==code[index]){
+    if (key===code[index]){
       index ++;
       
       if (index===code.length){
