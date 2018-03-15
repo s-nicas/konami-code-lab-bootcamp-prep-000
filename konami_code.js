@@ -11,7 +11,7 @@ var body = document.querySelector('body');
       index ++;
       
       if (index===code.length){
-        window.alert ("YAY!"); 
+           alert ("YAY!"); 
         
         index =0;
       }
