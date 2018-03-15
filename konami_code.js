@@ -10,7 +10,7 @@ var body = document.querySelector('body');
     if (key===code[index]){
       index ++;
       
-      if (index===code.length+1){
+      if (index===code.length){
            alert ("YAY!"); 
         
         index =0;
